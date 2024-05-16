@@ -2,8 +2,6 @@
 
 ## Visão Geral
 
-O projeto foi desenvolvido e criado para ajudar os alunos da EEEP Deputado Roberto Mesquita , assim como também oferecer auxilio na divulgação de eventos e propostas da mesma instituição, ela vai oferecer vídeo aulas, atividades , conteúdos para estudo do ENEM, demonstrar caminhos oferecidos pelas faculdades e detalhar cada trila de conhecimento para que os alunos tenham uma noção de onde irão se especializar e o que vai estar nessa graduação.
-
 ## Funcionalidades
 - <strong>Aprendizagem</strong>:  Esse projeto pode vir a servir como aprendizagem para os usuários que desejam aprender sobre diferentes formulários e trilhas de conhecimentos da programação web.
   
