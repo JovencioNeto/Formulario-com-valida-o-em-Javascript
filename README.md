@@ -10,7 +10,7 @@ O projeto foi desenvolvido e criado para ajudar os alunos da EEEP Deputado Rober
 ## Tecnologias utilizadas
 - <strong>HTML </strong>: utilizado para marcar e modelar todo o site.
 - <strong>CSS </strong>: utilizado para estilizar todo o site.
-- - <strong>SASS </strong>: utilizado para auxiliar na estilização junto ao CSS de forma mais prática e dinâmica.
+- <strong>SASS </strong>: utilizado para auxiliar na estilização junto ao CSS de forma mais prática e dinâmica.
 - <strong>JavaScript </strong>: utilizado para da funções e cálculos ao site.
 ## Como contribuir
 
