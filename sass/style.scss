@@ -1,0 +1,38 @@
+$white: white;
+$black: black;
+$blue: blue;
+
+$flex: flex;
+$center: center;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.form{
+    display: $flex;
+    justify-content: $center;
+    align-items: $center;
+    flex-direction: column;
+    background-color: $white;
+    height: 76vh;
+    width: 60vw;
+    border-radius: 4vb;
+}
+
+.centro{
+    display: $flex;
+    justify-content: $center;
+    align-items: $center;
+    background-color: $blue;
+    width: 100vw;
+    height: 100vh;
+}
+
+img{
+    width: 3rem;
+    height: 3rem;
+}

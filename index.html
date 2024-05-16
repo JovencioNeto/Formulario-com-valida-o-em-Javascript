@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./src/js/script.js" defer></script>
+    <title>Formulário de contato com validação em Javacript</title>
+</head>
+<body> 
+    <div class="centro">
+
+        <form class="form" id="form">
+
+            <h1>Formulário com validação em Javascript</h1>
+
+            <p>Seja Bem vindo(a)! Esse sistema de formulário possui validação em Javascript!</p>
+            
+            <div class="username_area">
+                <img src="./src/img/username.jpg" alt="username icon" for="username">
+                <input type="text" name="username" id="input_name" class='input_name' placeholder="Nome" required>
+            </div>
+
+            <div class="email_area">
+                <img src="./src/img/email.webp" alt="email icon">
+                <input type="email" name="email" id="email" class="email" placeholder="Email" required>
+            </div>
+
+            <div class="msn_area">
+                <img src="./src/img/msn.jpg" alt="mensenger icon">
+                <input type="text" name="msn" id="msn" class="msn" placeholder="Mensagem" required>
+
+            </div>
+
+            <button type="submit" class="button_submit" id="button_submit">Enviar</button>
+        </form>
+
+    </div> 
+
+</body>
+</html>
