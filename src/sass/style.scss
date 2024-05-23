@@ -34,6 +34,16 @@
         min-width: 180px;
 
     }
+    input:required{
+        
+    }
+    textarea{
+        width: 15rem;
+        height: 4rem;
+    }
+    textarea:required{
+
+    }
 
     .welcome{
         position: $relative;

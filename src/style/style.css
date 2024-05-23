@@ -30,6 +30,10 @@
   bottom: 1rem;
   min-width: 180px;
 }
+.form textarea {
+  width: 15rem;
+  height: 4rem;
+}
 .form .welcome {
   position: relative;
   bottom: 2rem;

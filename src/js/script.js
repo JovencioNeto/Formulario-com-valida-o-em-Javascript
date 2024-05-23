@@ -9,7 +9,7 @@ button_submit.addEventListener('click', () =>{
     const input_email = document.getElementById('email')
     const msn = document.getElementById('msn')
 
-    const validation =  new RegExp((/\S+@\S+\.\S+/))
+    const validation =  new RegExp(/^[A-Za-z0-9_\-\.]+@[A-Za-z0-9_\-\.]{2,}\.[A-Za-z0-9]{2,}(\.[A-Za-z0-9])?/);
    
     if(input_name.value == 0 || input_email.value == 0 || msn.value == 0) {
         if (input_name.value == 0 && input_email.value == 0 && msn.value == 0){
