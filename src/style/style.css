@@ -71,6 +71,10 @@
   height: 2.5rem;
 }
 
+.msn_area .msn_icon {
+  margin-bottom: 1.5rem;
+}
+
 @media (max-height: 600px) {
   .logo {
     display: none;

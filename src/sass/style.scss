@@ -32,17 +32,10 @@
         position: $relative;
         bottom: 1rem;
         min-width: 180px;
-
-    }
-    input:required{
-        
     }
     textarea{
         width: 15rem;
         height: 4rem;
-    }
-    textarea:required{
-
     }
 
     .welcome{
@@ -83,7 +76,11 @@
         height: 2.5rem;
     }
 }
-
+.msn_area{
+    .msn_icon{
+        margin-bottom: 1.5rem;
+    }
+}
 @media (max-height: 600px){
     .logo{
         display: none;
