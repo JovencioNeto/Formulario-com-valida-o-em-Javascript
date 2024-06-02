@@ -31,7 +31,7 @@
   min-width: 180px;
 }
 .form textarea {
-  width: 15rem;
+  width: 15.25rem;
   height: 4rem;
 }
 .form .welcome {
@@ -66,34 +66,100 @@
   left: 1.5rem;
 }
 
-.form_inputs .error {
-  display: none;
+.form_inputs p {
+  position: relative;
+  left: 10px;
+  margin-left: 0;
 }
 .form_inputs img {
   width: 2.5rem;
   height: 2.5rem;
+  position: relative;
+  right: 10px;
 }
 
-.msn_area .msn_icon {
+.msn_area, .email_area, .username_area {
+  display: flex;
+  flex-wrap: wrap;
+}
+.msn_area .msn_icon, .email_area .msn_icon, .username_area .msn_icon {
   margin-bottom: 1.5rem;
 }
 
-.error {
-  height: 1rem;
-  width: 1rem;
+.msn_area p {
+  margin-top: 20px;
 }
 
-#error_msn {
-  margin-bottom: 25px;
+.email_area p {
+  position: relative;
+  bottom: 5px;
+}
+.email_area img {
+  position: relative;
+  bottom: 15px;
+}
+
+.username_area {
+  margin-bottom: 1rem;
+}
+.username_area p {
+  position: relative;
+  bottom: 5px;
+}
+.username_area img {
+  position: relative;
+  bottom: 15px;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  height: 20px;
 }
 
 @media (max-height: 600px) {
   .logo {
     display: none;
   }
-  .centro {
-    width: 100%;
-    height: 90%;
+}
+@media (max-width: 400px) {
+  .form .welcome {
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin-left: 50px;
+  }
+  .form .welcome h1 {
+    margin-bottom: 30px;
+  }
+  .form .welcome p {
+    margin-left: 10px;
+  }
+  .form_inputs {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .form {
+    width: 500px;
+    border-radius: 0;
+  }
+  .form .welcome {
+    margin-left: 30px;
+  }
+  .form .welcome p {
+    margin-left: 40px;
+  }
+  .form .welcome h1 {
+    font-size: 17px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+  }
+  .form .welcome p {
+    font-size: 13px;
+    margin-right: 70px;
+  }
+  .form .form_inputs {
+    margin-right: 20px;
   }
 }
 

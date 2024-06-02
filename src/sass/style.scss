@@ -8,7 +8,6 @@
     font-family: "Rubik", sans-serif;
 }
 
-
 .form{
     @include center($flex,$center,$center);
     flex-direction: column;
@@ -34,7 +33,7 @@
         min-width: 180px;
     }
     textarea{
-        width: 15rem;
+        width: 15.25rem;
         height: 4rem;
     }
 
@@ -54,7 +53,6 @@
     height: 100vh;
 }
 
-
 .button_area{
     @include center($flex,$center,$center);
     position: $relative;
@@ -71,32 +69,110 @@
 }
 
 .form_inputs{
-    .error{
-        display: none;
+    p{
+        position: relative;
+        left: 10px;
+        margin-left: 0;
     }
     img {
         width: 2.5rem;
         height: 2.5rem;
+        position: relative;
+        right: 10px;
     }
 }
-.msn_area{
+.msn_area,.email_area,.username_area{
+
+    display: flex;
+    flex-wrap: wrap;
     .msn_icon{
         margin-bottom: 1.5rem;
     }
 }
-.error{
-    height: 1rem;
-    width: 1rem;
+
+.msn_area{
+    p{
+        margin-top: 20px;
+    }
 }
-#error_msn{
-    margin-bottom:25px;
+
+
+.email_area{
+    p{
+        position: relative;
+        bottom: 5px;
+    }
+    img{
+        position: relative;
+        bottom: 15px;
+    }
+}
+
+.username_area{
+    margin-bottom: 1rem;
+
+    p{
+        position: relative;
+        bottom: 5px;
+    }
+    img{
+        position: relative;
+        bottom: 15px;
+    }
+}
+
+.error{
+    background-color: red;
+    color: $white;
+    height: 20px;
 }
 @media (max-height: 600px){
     .logo{
         display: none;
     }
-    .centro{
-        width: 100%;
-        height: 90%;
+}
+
+@media (max-width: 400px){
+    .form{
+
+        .welcome{
+            margin-bottom: 20px;
+            font-size: 13px;
+            margin-left: 50px;
+        }
+        .welcome h1{
+            margin-bottom: 30px;
+        }
+        .welcome p {
+            margin-left: 10px;
+        }
+    }
+    .form_inputs{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 500px){
+    .form{
+        width: 500px;
+        border-radius: 0;
+        .welcome{            
+            margin-left: 30px;
+            p{
+                margin-left: 40px;
+            }
+            h1{
+                font-size: 17px;
+                padding-right: 30px;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 13px;
+                margin-right: 70px;
+            }
+        }
+        .form_inputs{
+            margin-right: 20px;
+        }
     }
 }
