@@ -78,25 +78,25 @@
   right: 10px;
 }
 
-.msn_area, .email_area, .username_area {
-  display: flex;
-  flex-wrap: wrap;
-}
-.msn_area .msn_icon, .email_area .msn_icon, .username_area .msn_icon {
+.msn_icon {
   margin-bottom: 1.5rem;
 }
 
+.msn_area {
+  position: relative;
+  top: 25px;
+}
 .msn_area p {
   margin-top: 20px;
+}
+
+#msn_error {
+  margin-top: 10px;
 }
 
 .email_area p {
   position: relative;
   bottom: 5px;
-}
-.email_area img {
-  position: relative;
-  bottom: 15px;
 }
 
 .username_area {
@@ -106,15 +106,11 @@
   position: relative;
   bottom: 5px;
 }
-.username_area img {
-  position: relative;
-  bottom: 15px;
-}
 
-.error {
-  background-color: red;
-  color: white;
-  height: 20px;
+.error_message {
+  color: red;
+  font-size: 11px;
+  margin-left: 45px;
 }
 
 @media (max-height: 600px) {

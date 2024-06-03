@@ -81,30 +81,27 @@
         right: 10px;
     }
 }
-.msn_area,.email_area,.username_area{
 
-    display: flex;
-    flex-wrap: wrap;
-    .msn_icon{
-        margin-bottom: 1.5rem;
-    }
+.msn_icon{
+    margin-bottom: 1.5rem;
 }
 
 .msn_area{
+    position: relative;
+    top: 25px;
     p{
         margin-top: 20px;
     }
 }
 
+#msn_error{
+    margin-top: 10px;
+}
 
 .email_area{
     p{
         position: relative;
         bottom: 5px;
-    }
-    img{
-        position: relative;
-        bottom: 15px;
     }
 }
 
@@ -115,17 +112,13 @@
         position: relative;
         bottom: 5px;
     }
-    img{
-        position: relative;
-        bottom: 15px;
-    }
+}
+.error_message {
+    color: red;
+    font-size: 11px;
+    margin-left: 45px;
 }
 
-.error{
-    background-color: red;
-    color: $white;
-    height: 20px;
-}
 @media (max-height: 600px){
     .logo{
         display: none;
