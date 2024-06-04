@@ -1,8 +1,6 @@
 const button_submit = document.getElementById('button_submit')
 const form = document.getElementById('form')
 
-
-
 button_submit.addEventListener('click', () =>{
     
     const input_name = document.getElementById('input_name')
@@ -78,9 +76,9 @@ button_submit.addEventListener('click', () =>{
             msn.removeAttribute("required")
         }else{
             
-            alert("Email Invalido! Adicione um '@' e após o '@' adicione um '.', assim como uma extensão valida!")
+            alert("Email Invalido! Adicione um '@' e após o '@' adicione um '.', assim como um domínio valido!")
 
-            error_email.textContent = "Extensão de email Inválida ou email inexistente!"
+            error_email.textContent = "Domínio de email Inválida ou email inexistente!"
         }
     }
 })
